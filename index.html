@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Sean Davis' CV</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Updock&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="cv-header">
+    <table class="contact-table">
+      <div class="cv-user">
+        <img src="./images/Headshot.jpg" style="height: 7rem" />
+        <h1 class="cv-name">Sean Davis</h1>
+      </div>
+      <tr>
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+      <tr>
+        <td>sean.dev.davis@gmail.com</td>
+        <td>615-818-6676</td>
+      </tr>
+    </table>
+  </header>
+  <hr>
+  <!-- summary section -->
+  <main class="display-wrapper">
+    <div id="summary" class="summary slide active">
+      <div class="section-title">
+        <h2 class="title"><i>Summary</i></h2>
+      </div>
+      <p class="detail">Skilled full stack developer with a strong passion for development. Loves to learn and build
+        in
+        front and back end development with React and C# .NET Core.</p>
+    </div>
+    <!-- <hr> -->
+    <!-- Education section -->
+    <div id="education" class="education slide">
+      <div class="section-title">
+        <h2 class="title"><i>Education</i></h2>
+      </div>
+      <div class="education-container">
+        <ul>
+          <li class="schooling"><a href="https://www.springboard.com/" target="_blank" class=""link>Springboard</a> - Front end
+            software
+            development course
+            (2025)</li>
+          <li class="schooling"><a href="https://nashvillesoftwareschool.com/" target="_blank" class=""link>Nashville Software
+              School</a>
+            - Full Stack
+            Developer Course (2019-2020)</li>
+          <li class="schooling"><a href="https://www.nscc.edu/" target="_blank" class=""link>Nashville State Community College</a> -
+            Computer Science
+            (2006)</li>
+        </ul>
+      </div>
+    </div>
+    <!-- <hr> -->
+    <!-- Skills Ssction -->
+    <div id="skills" class="skills slide">
+      <div class="section-title">
+        <h2 class="title"><i>Web Development</i></h2>
+      </div>
+      <div class="web">
+        <ul class="front-end-list">
+          <li class="list-title"><b>Front End</b></li>
+          <br>
+          <li>HTML & CSS</li>
+          <li>Javascript</li>
+          <li>DOM Manipulation using vanilla Javascript and jQuery</li>
+          <li>Node.js & Express</li>
+          <li>React Class and Functional Components</li>
+          <li>Javascript</li>
+        </ul>
+        <!-- <hr> -->
+        <div>
+          <ul class="back-end-list">
+            <li class="list-title"><b>Back End</b></li>
+            <br>
+            <li>SQL</li>
+            <li>PostgreSQL</li>
+            <li>C# ASP.NET Core</li>
+            <li>Swagger</li>
+            <li>Postman</li>
+          </ul>
+          <ul class="other-list">
+            <li class="list-title"><b>Other</b></li>
+            <br>
+            <li>Command Line</li>
+            <li>Git & Github</li>
+            <li>Object-Oriented Programming</li>
+            <li>Algorithms</li>
+            <li>Data Structures</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- <hr> -->
+
+    <!-- Tools section -->
+    <div id="tools" class="tools slide">
+      <div class="section-title">
+        <h2 class="title"><i>Tools</i></h2>
+      </div>
+      <div class="tools-container tools">
+        <table>
+          <tr>
+            <th><b>Tool</b></th>
+            <th><b>Description</b></th>
+            <th><b>Proficiency</b></th>
+          </tr>
+          <tr>
+            <td>Visual Studio Code</td>
+            <td>A popular IDE used for Javascript and Python development</td>
+            <td>Expert</td>
+          </tr>
+          <tr>
+            <td>Visual Studio</td>
+            <td>A popular IDE used for ASP.NET Core and C# development</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Postman</td>
+            <td>Postman is an API platform for building and using APIs</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Swagger</td>
+            <td>Used for testing API endpoints in ASP.NET Core</td>
+            <td>Expert</td>
+          </tr>
+          <tr>
+            <td>Lucid Chart</td>
+            <td>Plan out application diagrams that allows users to prepare for the look of my site</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Slack</td>
+            <td>A business communication platform designed to improve team collaboration and productivity</td>
+            <td>Intermediate</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+    <!-- <hr> -->
+    <div id="contact" class="contact-form slide">
+      <div class="form-title">
+        <h2 class="title"><i>Contact Me</i></h2>
+      </div>
+      <!-- <div class="form-display"> -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Full Name">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="example@company.com">
+      <br>
+      <label for="company">Company:</label>
+      <input type="text" id="company" placeholder="Full Name">
+      <br>
+      <label for="position">Position:</label>
+      <input type="text" id="position" placeholder="Full Name">
+      <br>
+      <label for="name">Reason for Contact:</label>
+      <select name="contact-reason" id="reason">
+        <option value="Collaboration">Collaboration</option>
+        <option value="Job Offer">Job Offer</option>
+      </select>
+      <br>
+      <label for="message">Message:<sup class="asterik">*</sup></label>
+      <textarea name="message-for" id="message" rows="5" cols="20" required
+        placeholder="What would you like to say before we connect?"></textarea>
+      <br>
+      <div class="sub-btn">
+        <button>Submit</button>
+      </div>
+
+      <!-- <hr> -->
+      <div class="socials">
+        <div class="check-my-socials">Check out my and let me know what you think
+          <br>
+
+        </div>
+        <a href="https://github.com/Dev-Davis" target="_blank" class=""link>Github</a>
+        <a href="https://linkedin.com/in/sean-dev/" target="_blank" class=""link>LinkedIn</a>
+      </div>
+    </div>
+    <!-- <form class="contact"> -->
+    <!-- </form> -->
+    <!-- </div> -->
+
+  </main>
+
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
